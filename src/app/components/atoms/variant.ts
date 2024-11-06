@@ -1,6 +1,11 @@
 import { tv } from "tailwind-variants";
 
 export const typography = tv({
+  defaultVariants: {
+    size: "base",
+    color: "black",
+    align: "left",
+  },
   variants: {
     color: {
       black: "text-black",
